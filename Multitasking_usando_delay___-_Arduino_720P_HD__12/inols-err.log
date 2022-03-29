@@ -1,0 +1,761 @@
+
+
+
+
+
+
+
+Started logging.
+2021/06/14 00:37:17 logging to c:\Users\NEXT\Documents\Arduino\Multitasking_usando_delay___-_Arduino_720P_HD__12\inols.log
+2021/06/14 00:37:17 Initial board configuration: {"Arduino Mega or Mega 2560" arduino:avr:mega}
+2021/06/14 00:37:17 Language server build path: C:\Users\NEXT\AppData\Local\Temp\arduino-language-server858546987
+2021/06/14 00:37:17 Language server build sketch root: C:\Users\NEXT\AppData\Local\Temp\arduino-language-server858546987\sketch
+2021/06/14 00:37:17 [92mIDE --> LS     CL: REQUEST initialize 0: [0m
+2021/06/14 00:37:17 IDE --> initialize 0 [93m locked[0m
+2021/06/14 00:37:17 IDE --> initialize 0 [93m unlocked[0m
+2021/06/14 00:37:17 [91mIDE <-- LS     CL: ANSWER UNBOUND (0): [0m
+2021/06/14 00:37:17 INIT--- initializing workbench
+2021/06/14 00:37:17 INIT--- [93m locked[0m
+2021/06/14 00:37:17     --> initialize(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12)
+2021/06/14 00:37:17 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml compile --fqbn arduino:avr:mega --only-compilation-database --clean --source-override C:\Users\NEXT\AppData\Local\Temp\879107726 --build-path C:\Users\NEXT\AppData\Local\Temp\arduino-language-server858546987 --format json C:\Users\NEXT\Documents\Arduino\Multitasking_usando_delay___-_Arduino_720P_HD__12
+2021/06/14 00:37:17 [92mIDE --> LS     CL: NOTIFICATION initialized: [0m
+2021/06/14 00:37:19 arduino-cli output: {
+  "compiler_out": "",
+  "compiler_err": "",
+  "builder_result": {
+    "build_path": "C:\\Users\\NEXT\\AppData\\Local\\Temp\\arduino-language-server858546987"
+  },
+  "success": true
+}
+
+2021/06/14 00:37:19 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml config dump --format json
+2021/06/14 00:37:19 Arduino Data Dir ->  C:\Users\NEXT\AppData\Local\Arduino15
+2021/06/14 00:37:19     Starting clangd: c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\bin\clangd.exe -log=verbose --compile-commands-dir=C:\Users\NEXT\AppData\Local\Temp\arduino-language-server858546987 -query-driver=C:\Users\NEXT\AppData\Local\Arduino15\packages\**
+2021/06/14 00:37:19 logging to c:\Users\NEXT\Documents\Arduino\Multitasking_usando_delay___-_Arduino_720P_HD__12\inols-clangd.log
+2021/06/14 00:37:19 logging to c:\Users\NEXT\Documents\Arduino\Multitasking_usando_delay___-_Arduino_720P_HD__12\inols-clangd-err.log
+2021/06/14 00:37:19 [91mIDE     LS --> CL: REQUEST initialize 0: [0m
+2021/06/14 00:37:19 [92mIDE     LS <-- CL: ANSWER initialize 0 (0): [0m
+2021/06/14 00:37:19 [91mIDE     LS --> CL: NOTIFICATION initialized: [0m
+2021/06/14 00:37:19 INIT--- initializing workbench (done)
+2021/06/14 00:37:19 INIT--- [93m unlocked[0m
+2021/06/14 00:37:19 IDE --> initialized notif1 [93m read-locked[0m
+2021/06/14 00:37:19 IDE --> initialized notif1 notification is not propagated to clangd
+2021/06/14 00:37:19 IDE --> initialized notif1 [93m read-unlocked[0m
+2021/06/14 00:37:19 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 00:37:19 IDE --> textDocument/didOpen notif2 [93m locked[0m
+2021/06/14 00:37:19 IDE --> textDocument/didOpen notif2 (file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino@1 as 'cpp')
+2021/06/14 00:37:19     increasing .ino tracked files count: 1
+2021/06/14 00:37:19 IDE --> textDocument/didOpen notif2 to clang: didOpen(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp@1 as 'cpp')
+2021/06/14 00:37:19 IDE --> textDocument/didOpen notif2 sent to Clang
+2021/06/14 00:37:19 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 00:37:19 IDE --> textDocument/didOpen notif2 Queued resfreshing document symbols
+2021/06/14 00:37:19 IDE --> textDocument/didOpen notif2 [93m unlocked[0m
+2021/06/14 00:37:19 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 1: [0m
+2021/06/14 00:37:19 IDE --> textDocument/codeAction 1 [93m read-locked[0m
+2021/06/14 00:37:19 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:0:0)
+2021/06/14 00:37:19 SYLD--- [93m read-locked[0m
+2021/06/14 00:37:19 SYLD--- requesting documentSymbol for file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp
+2021/06/14 00:37:19 SYLD--- [93m read-unlocked[0m
+2021/06/14 00:37:19 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 1: [0m
+2021/06/14 00:37:19     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:2:0)
+2021/06/14 00:37:19 IDE --> textDocument/codeAction 1 sent to Clang
+2021/06/14 00:37:19 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/14 00:37:19 [92mIDE     LS <-- CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/14 00:37:19 [91mIDE     LS --> CL: ANSWER UNBOUND (0): [0m
+2021/06/14 00:37:19 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 00:37:19 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/14 00:37:19 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/14 00:37:19 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 00:37:19 CLG <-- textDocument/publishDiagnostics notif3 (queued)
+2021/06/14 00:37:19 CLG <-- textDocument/publishDiagnostics notif3 [93m read-locked[0m
+2021/06/14 00:37:19 CLG <-- textDocument/publishDiagnostics notif3 (running)
+2021/06/14 00:37:19 CLG <-- textDocument/publishDiagnostics notif3 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp):
+2021/06/14 00:37:19 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 1 (1): [0m
+2021/06/14 00:37:19 CLG <-- textDocument/publishDiagnostics notif3 [93m read-unlocked[0m
+2021/06/14 00:37:19 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 2 (2): [0m
+2021/06/14 00:37:19 SYLD--- [93m read-locked[0m
+2021/06/14 00:37:19 SYLD---    symbol: Function setup 9:0-9:12
+2021/06/14 00:37:19 SYLD---             > void setup()
+2021/06/14 00:37:19 SYLD---    symbol: Function loop 11:0-11:11
+2021/06/14 00:37:19 SYLD---             > void loop()
+2021/06/14 00:37:19 SYLD---    symbol: Function lecturaBtn 13:0-13:17
+2021/06/14 00:37:19 SYLD---             > void lecturaBtn()
+2021/06/14 00:37:19 SYLD---    symbol: Function ledAzul 15:0-15:14
+2021/06/14 00:37:19 SYLD---             > void ledAzul()
+2021/06/14 00:37:19 SYLD---    symbol: Function ledRojo 17:0-17:14
+2021/06/14 00:37:19 SYLD---             > void ledRojo()
+2021/06/14 00:37:19 SYLD---    symbol: Function setup 19:0-29:1
+2021/06/14 00:37:19 SYLD---      TRIMMED> void setup() 
+2021/06/14 00:37:19 SYLD---    symbol: Function loop 31:0-46:1
+2021/06/14 00:37:19 SYLD---      TRIMMED> void loop() 
+2021/06/14 00:37:19 SYLD---    symbol: Function lecturaBtn 48:0-51:1
+2021/06/14 00:37:19 SYLD---      TRIMMED> void lecturaBtn()
+2021/06/14 00:37:19 SYLD---    symbol: Function ledAzul 53:0-57:1
+2021/06/14 00:37:19 SYLD---      TRIMMED> void ledAzul()
+2021/06/14 00:37:19 SYLD---    symbol: Function ledRojo 59:0-63:1
+2021/06/14 00:37:19 SYLD---      TRIMMED> void ledRojo()
+2021/06/14 00:37:19 SYLD--- [93m read-unlocked[0m
+2021/06/14 00:37:19 SYLD--- (done)
+2021/06/14 00:37:19     <-- codeAction(0 elements)
+2021/06/14 00:37:19 <-- codeAction(0 elements)
+2021/06/14 00:37:19 IDE --> textDocument/codeAction 1 [93m read-unlocked[0m
+2021/06/14 00:37:19 [91mIDE <-- LS     CL: ANSWER UNBOUND (1): [0m
+2021/06/14 00:37:19 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 0 (0): [0m
+2021/06/14 00:37:19 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 00:37:19 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 00:37:20 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/14 00:37:20 IDE --> textDocument/codeAction 2 [93m read-locked[0m
+2021/06/14 00:37:20 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:22:12)
+2021/06/14 00:37:20     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:35:12)
+2021/06/14 00:37:20 IDE --> textDocument/codeAction 2 sent to Clang
+2021/06/14 00:37:20 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 3: [0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 3 (3): [0m
+2021/06/14 00:37:20     <-- codeAction(0 elements)
+2021/06/14 00:37:20 <-- codeAction(0 elements)
+2021/06/14 00:37:20 IDE --> textDocument/codeAction 2 [93m read-unlocked[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: ANSWER UNBOUND (2): [0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 00:37:20 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 00:37:20 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 00:37:21 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 00:37:21 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 00:37:22 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 00:37:22 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 00:37:22 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 00:37:22 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 00:37:22 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 00:37:22 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 00:37:22 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 00:37:22 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 00:37:22 [92mIDE --> LS     CL: REQUEST textDocument/hover 3: [0m
+2021/06/14 00:37:22 IDE --> textDocument/hover 3 [93m read-locked[0m
+2021/06/14 00:37:22 --> hover(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:42:31)
+2021/06/14 00:37:22     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:55:31)
+2021/06/14 00:37:22 IDE --> textDocument/hover 3 sent to Clang
+2021/06/14 00:37:22 [91mIDE     LS --> CL: REQUEST textDocument/hover 4: [0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: ANSWER textDocument/hover 4 (4): [0m
+2021/06/14 00:37:22 <-- hover("### variable `estadoLed`  \n\n---\nType: `int`  \nlee estado led actual  \n\n---\n```cpp\n// In ledAzul\nint estadoLed = digitalRead(6)\n```")
+2021/06/14 00:37:22 IDE --> textDocument/hover 3 [93m read-unlocked[0m
+2021/06/14 00:37:22 [91mIDE <-- LS     CL: ANSWER UNBOUND (3): [0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 00:37:22 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 00:37:22 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 00:37:22 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 00:37:22 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 00:37:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/14 00:37:23 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/14 00:37:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/14 00:37:23 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/14 00:37:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/14 00:37:23 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/14 00:37:23 [92mIDE --> LS     CL: REQUEST textDocument/hover 4: [0m
+2021/06/14 00:37:23 IDE --> textDocument/hover 4 [93m read-locked[0m
+2021/06/14 00:37:23 --> hover(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:48:32)
+2021/06/14 00:37:23     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:61:32)
+2021/06/14 00:37:23 IDE --> textDocument/hover 4 sent to Clang
+2021/06/14 00:37:23 [91mIDE     LS --> CL: REQUEST textDocument/hover 5: [0m
+2021/06/14 00:37:23 [92mIDE     LS <-- CL: ANSWER textDocument/hover 5 (5): [0m
+2021/06/14 00:37:23 <-- hover("### variable `estadoLed`  \n\n---\nType: `int`  \nlee estado led actual  \n\n---\n```cpp\n// In ledRojo\nint estadoLed = digitalRead(7)\n```")
+2021/06/14 00:37:23 IDE --> textDocument/hover 4 [93m read-unlocked[0m
+2021/06/14 00:37:23 [91mIDE <-- LS     CL: ANSWER UNBOUND (4): [0m
+2021/06/14 00:37:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 00:37:23 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 00:37:25 [92mIDE --> LS     CL: REQUEST textDocument/hover 5: [0m
+2021/06/14 00:37:25 IDE --> textDocument/hover 5 [93m read-locked[0m
+2021/06/14 00:37:25 --> hover(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:48:25)
+2021/06/14 00:37:25     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:61:25)
+2021/06/14 00:37:25 IDE --> textDocument/hover 5 sent to Clang
+2021/06/14 00:37:25 [91mIDE     LS --> CL: REQUEST textDocument/hover 6: [0m
+2021/06/14 00:37:25 [92mIDE     LS <-- CL: ANSWER textDocument/hover 6 (6): [0m
+2021/06/14 00:37:25 IDE --> textDocument/hover 5 [93m read-unlocked[0m
+2021/06/14 00:37:25 [91mIDE <-- LS     CL: ANSWER UNBOUND (5): [0m
+2021/06/14 00:37:39 [92mIDE --> LS     CL: REQUEST textDocument/hover 6: [0m
+2021/06/14 00:37:39 IDE --> textDocument/hover 6 [93m read-locked[0m
+2021/06/14 00:37:39 --> hover(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:41:18)
+2021/06/14 00:37:39     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:54:18)
+2021/06/14 00:37:39 IDE --> textDocument/hover 6 sent to Clang
+2021/06/14 00:37:39 [91mIDE     LS --> CL: REQUEST textDocument/hover 7: [0m
+2021/06/14 00:37:39 [92mIDE     LS <-- CL: ANSWER textDocument/hover 7 (7): [0m
+2021/06/14 00:37:39 <-- hover("### function `digitalRead`  \n\n---\n→ `int`  \nParameters:  \n- `uint8_t pin`\n\n---\n```cpp\nint digitalRead(uint8_t pin)\n```")
+2021/06/14 00:37:39 IDE --> textDocument/hover 6 [93m read-unlocked[0m
+2021/06/14 00:37:39 [91mIDE <-- LS     CL: ANSWER UNBOUND (6): [0m
+2021/06/14 00:37:44 [92mIDE --> LS     CL: REQUEST textDocument/hover 7: [0m
+2021/06/14 00:37:44 IDE --> textDocument/hover 7 [93m read-locked[0m
+2021/06/14 00:37:44 --> hover(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:53:16)
+2021/06/14 00:37:44     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:66:16)
+2021/06/14 00:37:44 IDE --> textDocument/hover 7 sent to Clang
+2021/06/14 00:37:44 [91mIDE     LS --> CL: REQUEST textDocument/hover 8: [0m
+2021/06/14 00:37:44 [92mIDE     LS <-- CL: ANSWER textDocument/hover 8 (8): [0m
+2021/06/14 00:37:44 IDE --> textDocument/hover 7 [93m read-unlocked[0m
+2021/06/14 00:37:44 [91mIDE <-- LS     CL: ANSWER UNBOUND (7): [0m
+2021/06/14 00:37:44 [92mIDE --> LS     CL: REQUEST textDocument/hover 8: [0m
+2021/06/14 00:37:44 IDE --> textDocument/hover 8 [93m read-locked[0m
+2021/06/14 00:37:44 --> hover(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:53:16)
+2021/06/14 00:37:44     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:66:16)
+2021/06/14 00:37:44 IDE --> textDocument/hover 8 sent to Clang
+2021/06/14 00:37:44 [91mIDE     LS --> CL: REQUEST textDocument/hover 9: [0m
+2021/06/14 00:37:44 [92mIDE     LS <-- CL: ANSWER textDocument/hover 9 (9): [0m
+2021/06/14 00:37:44 IDE --> textDocument/hover 8 [93m read-unlocked[0m
+2021/06/14 00:37:44 [91mIDE <-- LS     CL: ANSWER UNBOUND (8): [0m
+2021/06/14 00:37:57 [92mIDE --> LS     CL: REQUEST textDocument/hover 9: [0m
+2021/06/14 00:37:57 IDE --> textDocument/hover 9 [93m read-locked[0m
+2021/06/14 00:37:57 --> hover(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:20:6)
+2021/06/14 00:37:57     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:33:6)
+2021/06/14 00:37:57 IDE --> textDocument/hover 9 sent to Clang
+2021/06/14 00:37:57 [91mIDE     LS --> CL: REQUEST textDocument/hover 10: [0m
+2021/06/14 00:37:57 [92mIDE     LS <-- CL: ANSWER textDocument/hover 10 (10): [0m
+2021/06/14 00:37:57 <-- hover("### variable `count`  \n\n---\nType: `int`  \nValue = `0`  \n\n---\n```cpp\nint count = 0\n```")
+2021/06/14 00:37:57 IDE --> textDocument/hover 9 [93m read-unlocked[0m
+2021/06/14 00:37:57 [91mIDE <-- LS     CL: ANSWER UNBOUND (9): [0m
+2021/06/14 00:38:08 [92mIDE --> LS     CL: REQUEST textDocument/hover 10: [0m
+2021/06/14 00:38:08 IDE --> textDocument/hover 10 [93m read-locked[0m
+2021/06/14 00:38:08 --> hover(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:13:27)
+2021/06/14 00:38:08     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:26:27)
+2021/06/14 00:38:08 IDE --> textDocument/hover 10 sent to Clang
+2021/06/14 00:38:08 [91mIDE     LS --> CL: REQUEST textDocument/hover 11: [0m
+2021/06/14 00:38:08 [92mIDE     LS <-- CL: ANSWER textDocument/hover 11 (11): [0m
+2021/06/14 00:38:08 <-- hover("### macro `HIGH`  \n\n---\n```cpp\n#define HIGH 0x1\n```")
+2021/06/14 00:38:08 IDE --> textDocument/hover 10 [93m read-unlocked[0m
+2021/06/14 00:38:08 [91mIDE <-- LS     CL: ANSWER UNBOUND (10): [0m
+2021/06/14 00:38:09 [92mIDE --> LS     CL: REQUEST textDocument/hover 11: [0m
+2021/06/14 00:38:09 IDE --> textDocument/hover 11 [93m read-locked[0m
+2021/06/14 00:38:09 --> hover(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:13:26)
+2021/06/14 00:38:09     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:26:26)
+2021/06/14 00:38:09 IDE --> textDocument/hover 11 sent to Clang
+2021/06/14 00:38:09 [91mIDE     LS --> CL: REQUEST textDocument/hover 12: [0m
+2021/06/14 00:38:09 [92mIDE     LS <-- CL: ANSWER textDocument/hover 12 (12): [0m
+2021/06/14 00:38:09 <-- hover("### macro `HIGH`  \n\n---\n```cpp\n#define HIGH 0x1\n```")
+2021/06/14 00:38:09 IDE --> textDocument/hover 11 [93m read-unlocked[0m
+2021/06/14 00:38:09 [91mIDE <-- LS     CL: ANSWER UNBOUND (11): [0m
+2021/06/14 00:38:10 [92mIDE --> LS     CL: REQUEST textDocument/hover 12: [0m
+2021/06/14 00:38:10 IDE --> textDocument/hover 12 [93m read-locked[0m
+2021/06/14 00:38:10 --> hover(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:15:23)
+2021/06/14 00:38:10     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server858546987/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:28:23)
+2021/06/14 00:38:10 IDE --> textDocument/hover 12 sent to Clang
+2021/06/14 00:38:10 [91mIDE     LS --> CL: REQUEST textDocument/hover 13: [0m
+2021/06/14 00:38:10 [92mIDE     LS <-- CL: ANSWER textDocument/hover 13 (13): [0m
+2021/06/14 00:38:10 <-- hover("### macro `LOW`  \n\n---\n```cpp\n#define LOW 0x0\n```")
+2021/06/14 00:38:10 IDE --> textDocument/hover 12 [93m read-unlocked[0m
+2021/06/14 00:38:10 [91mIDE <-- LS     CL: ANSWER UNBOUND (12): [0m
+2021/06/14 00:54:45 [92mIDE --> LS     CL: REQUEST shutdown 13: [0m
+2021/06/14 00:54:45 IDE --> shutdown 13 [93m read-locked[0m
+2021/06/14 00:54:45 IDE --> shutdown 13 sent to Clang
+2021/06/14 00:54:45 [91mIDE     LS --> CL: REQUEST shutdown 14: [0m
+2021/06/14 00:54:45 [92mIDE     LS <-- CL: ANSWER shutdown 14 (14): [0m
+2021/06/14 00:54:45 IDE --> shutdown 13 [93m read-unlocked[0m
+2021/06/14 00:54:45 [91mIDE <-- LS     CL: ANSWER UNBOUND (13): [0m
+2021/06/14 00:54:45 [92mIDE --> LS     CL: NOTIFICATION exit: [0m
+2021/06/14 00:54:45 IDE --> exit notif3 [93m read-locked[0m
+2021/06/14 00:54:45 IDE --> exit notif3 sent to Clang
+2021/06/14 00:54:45 [91mIDE     LS --> CL: NOTIFICATION exit: [0m
+2021/06/14 00:54:45 IDE --> exit notif3 [93m read-unlocked[0m
+2021/06/14 00:54:46 Lost connection with clangd!
+2021/06/14 00:54:46 removing buildpath
+
+
+
+
+
+
+
+Started logging.
+2021/06/14 21:33:20 logging to c:\Users\NEXT\Documents\Arduino\Multitasking_usando_delay___-_Arduino_720P_HD__12\inols.log
+2021/06/14 21:33:20 Initial board configuration: {"Arduino Mega or Mega 2560" arduino:avr:mega}
+2021/06/14 21:33:20 Language server build path: C:\Users\NEXT\AppData\Local\Temp\arduino-language-server103709915
+2021/06/14 21:33:20 Language server build sketch root: C:\Users\NEXT\AppData\Local\Temp\arduino-language-server103709915\sketch
+2021/06/14 21:33:20 [92mIDE --> LS     CL: REQUEST initialize 0: [0m
+2021/06/14 21:33:20 IDE --> initialize 0 [93m locked[0m
+2021/06/14 21:33:20 IDE --> initialize 0 [93m unlocked[0m
+2021/06/14 21:33:20 [91mIDE <-- LS     CL: ANSWER UNBOUND (0): [0m
+2021/06/14 21:33:20 INIT--- initializing workbench
+2021/06/14 21:33:20 INIT--- [93m locked[0m
+2021/06/14 21:33:20 [92mIDE --> LS     CL: NOTIFICATION initialized: [0m
+2021/06/14 21:33:20     --> initialize(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12)
+2021/06/14 21:33:20 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml compile --fqbn arduino:avr:mega --only-compilation-database --clean --source-override C:\Users\NEXT\AppData\Local\Temp\348175998 --build-path C:\Users\NEXT\AppData\Local\Temp\arduino-language-server103709915 --format json C:\Users\NEXT\Documents\Arduino\Multitasking_usando_delay___-_Arduino_720P_HD__12
+2021/06/14 21:33:23 arduino-cli output: {
+  "compiler_out": "",
+  "compiler_err": "",
+  "builder_result": {
+    "build_path": "C:\\Users\\NEXT\\AppData\\Local\\Temp\\arduino-language-server103709915"
+  },
+  "success": true
+}
+
+2021/06/14 21:33:23 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml config dump --format json
+2021/06/14 21:33:23 Arduino Data Dir ->  C:\Users\NEXT\AppData\Local\Arduino15
+2021/06/14 21:33:23     Starting clangd: c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\bin\clangd.exe -log=verbose --compile-commands-dir=C:\Users\NEXT\AppData\Local\Temp\arduino-language-server103709915 -query-driver=C:\Users\NEXT\AppData\Local\Arduino15\packages\**
+2021/06/14 21:33:23 logging to c:\Users\NEXT\Documents\Arduino\Multitasking_usando_delay___-_Arduino_720P_HD__12\inols-clangd.log
+2021/06/14 21:33:23 logging to c:\Users\NEXT\Documents\Arduino\Multitasking_usando_delay___-_Arduino_720P_HD__12\inols-clangd-err.log
+2021/06/14 21:33:23 [91mIDE     LS --> CL: REQUEST initialize 0: [0m
+2021/06/14 21:33:23 [92mIDE     LS <-- CL: ANSWER initialize 0 (0): [0m
+2021/06/14 21:33:23 [91mIDE     LS --> CL: NOTIFICATION initialized: [0m
+2021/06/14 21:33:23 INIT--- initializing workbench (done)
+2021/06/14 21:33:23 INIT--- [93m unlocked[0m
+2021/06/14 21:33:23 IDE --> initialized notif1 [93m read-locked[0m
+2021/06/14 21:33:23 IDE --> initialized notif1 notification is not propagated to clangd
+2021/06/14 21:33:23 IDE --> initialized notif1 [93m read-unlocked[0m
+2021/06/14 21:33:23 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 21:33:23 IDE --> textDocument/didOpen notif2 [93m locked[0m
+2021/06/14 21:33:23 IDE --> textDocument/didOpen notif2 (file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino@1 as 'cpp')
+2021/06/14 21:33:23     increasing .ino tracked files count: 1
+2021/06/14 21:33:23 IDE --> textDocument/didOpen notif2 to clang: didOpen(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server103709915/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp@1 as 'cpp')
+2021/06/14 21:33:23 IDE --> textDocument/didOpen notif2 sent to Clang
+2021/06/14 21:33:23 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 21:33:23 IDE --> textDocument/didOpen notif2 Queued resfreshing document symbols
+2021/06/14 21:33:23 IDE --> textDocument/didOpen notif2 [93m unlocked[0m
+2021/06/14 21:33:23 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 1: [0m
+2021/06/14 21:33:23 IDE --> textDocument/codeAction 1 [93m read-locked[0m
+2021/06/14 21:33:23 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:22:12)
+2021/06/14 21:33:23     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server103709915/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:35:12)
+2021/06/14 21:33:23 IDE --> textDocument/codeAction 1 sent to Clang
+2021/06/14 21:33:23 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 1: [0m
+2021/06/14 21:33:23 SYLD--- [93m read-locked[0m
+2021/06/14 21:33:23 SYLD--- requesting documentSymbol for file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server103709915/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp
+2021/06/14 21:33:23 SYLD--- [93m read-unlocked[0m
+2021/06/14 21:33:23 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 2: [0m
+2021/06/14 21:33:23 [92mIDE     LS <-- CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/14 21:33:23 [91mIDE     LS --> CL: ANSWER UNBOUND (0): [0m
+2021/06/14 21:33:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 21:33:23 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/1 0%[0m
+2021/06/14 21:33:23 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/14 21:33:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/27 0%[0m
+2021/06/14 21:33:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/27 0%[0m
+2021/06/14 21:33:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/27 0%[0m
+2021/06/14 21:33:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/14 21:33:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/14 21:33:24 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/14 21:33:24 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 21:33:24 CLG <-- textDocument/publishDiagnostics notif9 (queued)
+2021/06/14 21:33:24 CLG <-- textDocument/publishDiagnostics notif9 [93m read-locked[0m
+2021/06/14 21:33:24 CLG <-- textDocument/publishDiagnostics notif9 (running)
+2021/06/14 21:33:24 CLG <-- textDocument/publishDiagnostics notif9 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server103709915/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp):
+2021/06/14 21:33:24 CLG <-- textDocument/publishDiagnostics notif9 [93m read-unlocked[0m
+2021/06/14 21:33:24 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 1 (1): [0m
+2021/06/14 21:33:24 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 2 (2): [0m
+2021/06/14 21:33:24 SYLD--- [93m read-locked[0m
+2021/06/14 21:33:24 SYLD---    symbol: Function setup 9:0-9:12
+2021/06/14 21:33:24 SYLD---             > void setup()
+2021/06/14 21:33:24 SYLD---    symbol: Function loop 11:0-11:11
+2021/06/14 21:33:24 SYLD---             > void loop()
+2021/06/14 21:33:24 SYLD---    symbol: Function lecturaBtn 13:0-13:17
+2021/06/14 21:33:24 SYLD---             > void lecturaBtn()
+2021/06/14 21:33:24 SYLD---    symbol: Function ledAzul 15:0-15:14
+2021/06/14 21:33:24 SYLD---             > void ledAzul()
+2021/06/14 21:33:24 SYLD---    symbol: Function ledRojo 17:0-17:14
+2021/06/14 21:33:24 SYLD---             > void ledRojo()
+2021/06/14 21:33:24 SYLD---    symbol: Function setup 19:0-29:1
+2021/06/14 21:33:24 SYLD---      TRIMMED> void setup() 
+2021/06/14 21:33:24 SYLD---    symbol: Function loop 31:0-46:1
+2021/06/14 21:33:24 SYLD---      TRIMMED> void loop() 
+2021/06/14 21:33:24 SYLD---    symbol: Function lecturaBtn 48:0-51:1
+2021/06/14 21:33:24 SYLD---      TRIMMED> void lecturaBtn()
+2021/06/14 21:33:24 SYLD---    symbol: Function ledAzul 53:0-57:1
+2021/06/14 21:33:24 SYLD---      TRIMMED> void ledAzul()
+2021/06/14 21:33:24 SYLD---    symbol: Function ledRojo 59:0-63:1
+2021/06/14 21:33:24 SYLD---      TRIMMED> void ledRojo()
+2021/06/14 21:33:24 SYLD--- [93m read-unlocked[0m
+2021/06/14 21:33:24 SYLD--- (done)
+2021/06/14 21:33:24     <-- codeAction(0 elements)
+2021/06/14 21:33:24 <-- codeAction(0 elements)
+2021/06/14 21:33:24 IDE --> textDocument/codeAction 1 [93m read-unlocked[0m
+2021/06/14 21:33:24 [91mIDE <-- LS     CL: ANSWER UNBOUND (1): [0m
+2021/06/14 21:33:24 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 0 (0): [0m
+2021/06/14 21:33:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 21:33:24 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/14 21:33:25 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/14 21:33:25 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/14 21:33:25 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/14 21:33:26 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 21:33:26 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 21:33:26 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 21:33:26 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 21:33:26 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 21:33:26 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 21:33:26 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 21:33:26 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 21:33:26 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 21:33:26 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 21:33:26 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 21:33:26 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 21:33:26 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 21:33:26 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 21:33:26 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 21:33:27 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 21:33:27 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/14 21:33:28 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 21:33:28 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 21:33:47 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/14 21:33:47 IDE --> textDocument/codeAction 2 [93m read-locked[0m
+2021/06/14 21:33:47 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:38:1)
+2021/06/14 21:33:47     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server103709915/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:51:1)
+2021/06/14 21:33:47 IDE --> textDocument/codeAction 2 sent to Clang
+2021/06/14 21:33:47 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 3: [0m
+2021/06/14 21:33:47 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 3 (3): [0m
+2021/06/14 21:33:47     <-- codeAction(0 elements)
+2021/06/14 21:33:47 <-- codeAction(0 elements)
+2021/06/14 21:33:47 IDE --> textDocument/codeAction 2 [93m read-unlocked[0m
+2021/06/14 21:33:47 [91mIDE <-- LS     CL: ANSWER UNBOUND (2): [0m
+2021/06/14 21:34:07 [92mIDE --> LS     CL: REQUEST textDocument/hover 3: [0m
+2021/06/14 21:34:07 IDE --> textDocument/hover 3 [93m read-locked[0m
+2021/06/14 21:34:07 --> hover(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:41:48)
+2021/06/14 21:34:07     --> hover(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server103709915/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:54:48)
+2021/06/14 21:34:07 IDE --> textDocument/hover 3 sent to Clang
+2021/06/14 21:34:07 [91mIDE     LS --> CL: REQUEST textDocument/hover 4: [0m
+2021/06/14 21:34:07 [92mIDE     LS <-- CL: ANSWER textDocument/hover 4 (4): [0m
+2021/06/14 21:34:07 IDE --> textDocument/hover 3 [93m read-unlocked[0m
+2021/06/14 21:34:07 [91mIDE <-- LS     CL: ANSWER UNBOUND (3): [0m
+2021/06/14 21:34:19 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 4: [0m
+2021/06/14 21:34:19 IDE --> textDocument/codeAction 4 [93m read-locked[0m
+2021/06/14 21:34:19 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:52:36)
+2021/06/14 21:34:19     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server103709915/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:65:36)
+2021/06/14 21:34:19 IDE --> textDocument/codeAction 4 sent to Clang
+2021/06/14 21:34:19 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 5: [0m
+2021/06/14 21:34:19 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 5 (5): [0m
+2021/06/14 21:34:19     <-- codeAction(0 elements)
+2021/06/14 21:34:19 <-- codeAction(0 elements)
+2021/06/14 21:34:19 IDE --> textDocument/codeAction 4 [93m read-unlocked[0m
+2021/06/14 21:34:19 [91mIDE <-- LS     CL: ANSWER UNBOUND (4): [0m
+2021/06/14 21:34:38 [92mIDE --> LS     CL: REQUEST shutdown 5: [0m
+2021/06/14 21:34:38 IDE --> shutdown 5 [93m read-locked[0m
+2021/06/14 21:34:38 IDE --> shutdown 5 sent to Clang
+2021/06/14 21:34:38 [91mIDE     LS --> CL: REQUEST shutdown 6: [0m
+2021/06/14 21:34:38 [92mIDE     LS <-- CL: ANSWER shutdown 6 (6): [0m
+2021/06/14 21:34:38 IDE --> shutdown 5 [93m read-unlocked[0m
+2021/06/14 21:34:38 [91mIDE <-- LS     CL: ANSWER UNBOUND (5): [0m
+2021/06/14 21:34:38 [92mIDE --> LS     CL: NOTIFICATION exit: [0m
+2021/06/14 21:34:38 IDE --> exit notif3 [93m read-locked[0m
+2021/06/14 21:34:38 IDE --> exit notif3 sent to Clang
+2021/06/14 21:34:38 [91mIDE     LS --> CL: NOTIFICATION exit: [0m
+2021/06/14 21:34:38 IDE --> exit notif3 [93m read-unlocked[0m
+2021/06/14 21:34:38 Lost connection with clangd!
+2021/06/14 21:34:38 removing buildpath
+
+
+
+
+
+
+
+Started logging.
+2021/06/14 23:52:38 logging to c:\Users\NEXT\Documents\Arduino\Multitasking_usando_delay___-_Arduino_720P_HD__12\inols.log
+2021/06/14 23:52:38 Initial board configuration: {"Arduino Mega or Mega 2560" arduino:avr:mega}
+2021/06/14 23:52:38 Language server build path: C:\Users\NEXT\AppData\Local\Temp\arduino-language-server610470603
+2021/06/14 23:52:38 Language server build sketch root: C:\Users\NEXT\AppData\Local\Temp\arduino-language-server610470603\sketch
+2021/06/14 23:52:38 [92mIDE --> LS     CL: REQUEST initialize 0: [0m
+2021/06/14 23:52:38 IDE --> initialize 0 [93m locked[0m
+2021/06/14 23:52:38 IDE --> initialize 0 [93m unlocked[0m
+2021/06/14 23:52:38 [91mIDE <-- LS     CL: ANSWER UNBOUND (0): [0m
+2021/06/14 23:52:38 INIT--- initializing workbench
+2021/06/14 23:52:38 INIT--- [93m locked[0m
+2021/06/14 23:52:38     --> initialize(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12)
+2021/06/14 23:52:38 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml compile --fqbn arduino:avr:mega --only-compilation-database --clean --source-override C:\Users\NEXT\AppData\Local\Temp\116302766 --build-path C:\Users\NEXT\AppData\Local\Temp\arduino-language-server610470603 --format json C:\Users\NEXT\Documents\Arduino\Multitasking_usando_delay___-_Arduino_720P_HD__12
+2021/06/14 23:52:38 [92mIDE --> LS     CL: NOTIFICATION initialized: [0m
+2021/06/14 23:52:39 arduino-cli output: {
+  "compiler_out": "",
+  "compiler_err": "",
+  "builder_result": {
+    "build_path": "C:\\Users\\NEXT\\AppData\\Local\\Temp\\arduino-language-server610470603"
+  },
+  "success": true
+}
+
+2021/06/14 23:52:39 running:  c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\arduino-cli.exe --config-file c:\Users\NEXT\.arduinoIDE\arduino-cli.yaml config dump --format json
+2021/06/14 23:52:39 Arduino Data Dir ->  C:\Users\NEXT\AppData\Local\Arduino15
+2021/06/14 23:52:39     Starting clangd: c:\Users\NEXT\AppData\Local\Programs\Arduino IDE\resources\app\node_modules\arduino-ide-extension\build\bin\clangd.exe -log=verbose --compile-commands-dir=C:\Users\NEXT\AppData\Local\Temp\arduino-language-server610470603 -query-driver=C:\Users\NEXT\AppData\Local\Arduino15\packages\**
+2021/06/14 23:52:39 logging to c:\Users\NEXT\Documents\Arduino\Multitasking_usando_delay___-_Arduino_720P_HD__12\inols-clangd.log
+2021/06/14 23:52:39 logging to c:\Users\NEXT\Documents\Arduino\Multitasking_usando_delay___-_Arduino_720P_HD__12\inols-clangd-err.log
+2021/06/14 23:52:39 [91mIDE     LS --> CL: REQUEST initialize 0: [0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: ANSWER initialize 0 (0): [0m
+2021/06/14 23:52:40 [91mIDE     LS --> CL: NOTIFICATION initialized: [0m
+2021/06/14 23:52:40 INIT--- initializing workbench (done)
+2021/06/14 23:52:40 INIT--- [93m unlocked[0m
+2021/06/14 23:52:40 IDE --> initialized notif1 [93m read-locked[0m
+2021/06/14 23:52:40 IDE --> initialized notif1 notification is not propagated to clangd
+2021/06/14 23:52:40 IDE --> initialized notif1 [93m read-unlocked[0m
+2021/06/14 23:52:40 [92mIDE --> LS     CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:52:40 IDE --> textDocument/didOpen notif2 [93m locked[0m
+2021/06/14 23:52:40 IDE --> textDocument/didOpen notif2 (file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino@1 as 'cpp')
+2021/06/14 23:52:40     increasing .ino tracked files count: 1
+2021/06/14 23:52:40 IDE --> textDocument/didOpen notif2 to clang: didOpen(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server610470603/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp@1 as 'cpp')
+2021/06/14 23:52:40 IDE --> textDocument/didOpen notif2 sent to Clang
+2021/06/14 23:52:40 [91mIDE     LS --> CL: NOTIFICATION textDocument/didOpen: [0m
+2021/06/14 23:52:40 IDE --> textDocument/didOpen notif2 Queued resfreshing document symbols
+2021/06/14 23:52:40 IDE --> textDocument/didOpen notif2 [93m unlocked[0m
+2021/06/14 23:52:40 [92mIDE --> LS     CL: REQUEST textDocument/codeAction 1: [0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/14 23:52:40 SYLD--- [93m read-locked[0m
+2021/06/14 23:52:40 IDE --> textDocument/codeAction 1 [93m read-locked[0m
+2021/06/14 23:52:40 --> codeAction(file:///c%3A/Users/NEXT/Documents/Arduino/Multitasking_usando_delay___-_Arduino_720P_HD__12/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino:52:36)
+2021/06/14 23:52:40 [91mIDE     LS --> CL: ANSWER UNBOUND (0): [0m
+2021/06/14 23:52:40 SYLD--- requesting documentSymbol for file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server610470603/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp
+2021/06/14 23:52:40 SYLD--- [93m read-unlocked[0m
+2021/06/14 23:52:40 [91mIDE     LS --> CL: REQUEST textDocument/documentSymbol 1: [0m
+2021/06/14 23:52:40     --> codeAction(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server610470603/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp:65:36)
+2021/06/14 23:52:40 IDE --> textDocument/codeAction 1 sent to Clang
+2021/06/14 23:52:40 [91mIDE     LS --> CL: REQUEST textDocument/codeAction 2: [0m
+2021/06/14 23:52:40 [91mIDE <-- LS     CL: REQUEST window/workDoneProgress/create 0: [0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/1 0%[0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/27 0%[0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/27 0%[0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 0/27 0%[0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION textDocument/publishDiagnostics: [0m
+2021/06/14 23:52:40 CLG <-- textDocument/publishDiagnostics notif9 (queued)
+2021/06/14 23:52:40 CLG <-- textDocument/publishDiagnostics notif9 [93m read-locked[0m
+2021/06/14 23:52:40 CLG <-- textDocument/publishDiagnostics notif9 (running)
+2021/06/14 23:52:40 CLG <-- textDocument/publishDiagnostics notif9 publishDiagnostics(file:///C:/Users/NEXT/AppData/Local/Temp/arduino-language-server610470603/sketch/Multitasking_usando_delay___-_Arduino_720P_HD__12.ino.cpp):
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: ANSWER textDocument/documentSymbol 1 (1): [0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: ANSWER textDocument/codeAction 2 (2): [0m
+2021/06/14 23:52:40 CLG <-- textDocument/publishDiagnostics notif9 [93m read-unlocked[0m
+2021/06/14 23:52:40     <-- codeAction(0 elements)
+2021/06/14 23:52:40 <-- codeAction(0 elements)
+2021/06/14 23:52:40 IDE --> textDocument/codeAction 1 [93m read-unlocked[0m
+2021/06/14 23:52:40 [91mIDE <-- LS     CL: ANSWER UNBOUND (1): [0m
+2021/06/14 23:52:40 [92mIDE --> LS     CL: ANSWER window/workDoneProgress/create 0 (0): [0m
+2021/06/14 23:52:40 SYLD--- [93m read-locked[0m
+2021/06/14 23:52:40 SYLD---    symbol: Function setup 9:0-9:12
+2021/06/14 23:52:40 SYLD---             > void setup()
+2021/06/14 23:52:40 SYLD---    symbol: Function loop 11:0-11:11
+2021/06/14 23:52:40 SYLD---             > void loop()
+2021/06/14 23:52:40 SYLD---    symbol: Function lecturaBtn 13:0-13:17
+2021/06/14 23:52:40 SYLD---             > void lecturaBtn()
+2021/06/14 23:52:40 SYLD---    symbol: Function ledAzul 15:0-15:14
+2021/06/14 23:52:40 SYLD---             > void ledAzul()
+2021/06/14 23:52:40 SYLD---    symbol: Function ledRojo 17:0-17:14
+2021/06/14 23:52:40 SYLD---             > void ledRojo()
+2021/06/14 23:52:40 SYLD---    symbol: Function setup 19:0-29:1
+2021/06/14 23:52:40 SYLD---      TRIMMED> void setup() 
+2021/06/14 23:52:40 SYLD---    symbol: Function loop 31:0-46:1
+2021/06/14 23:52:40 SYLD---      TRIMMED> void loop() 
+2021/06/14 23:52:40 SYLD---    symbol: Function lecturaBtn 48:0-51:1
+2021/06/14 23:52:40 SYLD---      TRIMMED> void lecturaBtn()
+2021/06/14 23:52:40 SYLD---    symbol: Function ledAzul 53:0-57:1
+2021/06/14 23:52:40 SYLD---      TRIMMED> void ledAzul()
+2021/06/14 23:52:40 SYLD---    symbol: Function ledRojo 59:0-63:1
+2021/06/14 23:52:40 SYLD---      TRIMMED> void ledRojo()
+2021/06/14 23:52:40 SYLD--- [93m read-unlocked[0m
+2021/06/14 23:52:40 SYLD--- (done)
+2021/06/14 23:52:40 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress BEGIN indexing [0m
+2021/06/14 23:52:40 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 1/27 3.7037037037037037%[0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/14 23:52:40 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 2/27 7.407407407407407%[0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 23:52:40 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 23:52:40 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 3/27 11.11111111111111%[0m
+2021/06/14 23:52:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 23:52:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 23:52:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 23:52:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 4/27 14.814814814814815%[0m
+2021/06/14 23:52:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 23:52:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 23:52:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 23:52:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 5/27 18.51851851851852%[0m
+2021/06/14 23:52:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 23:52:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 23:52:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 23:52:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 6/27 22.22222222222222%[0m
+2021/06/14 23:52:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 23:52:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 23:52:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 7/27 25.925925925925927%[0m
+2021/06/14 23:52:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 23:52:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 23:52:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 8/27 29.62962962962963%[0m
+2021/06/14 23:52:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 23:52:41 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 23:52:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 23:52:41 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 9/27 33.333333333333336%[0m
+2021/06/14 23:52:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 23:52:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 23:52:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 10/27 37.03703703703704%[0m
+2021/06/14 23:52:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 23:52:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 23:52:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 11/27 40.74074074074074%[0m
+2021/06/14 23:52:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 23:52:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 23:52:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 12/27 44.44444444444444%[0m
+2021/06/14 23:52:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 23:52:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 23:52:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 13/27 48.148148148148145%[0m
+2021/06/14 23:52:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 23:52:42 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 23:52:42 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 14/27 51.851851851851855%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 23:52:43 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 15/27 55.55555555555556%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 23:52:43 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 16/27 59.25925925925926%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 23:52:43 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 17/27 62.96296296296296%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 23:52:43 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 18/27 66.66666666666667%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 23:52:43 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 23:52:43 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 19/27 70.37037037037037%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 23:52:43 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 20/27 74.07407407407408%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 23:52:43 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 21/27 77.77777777777777%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 23:52:43 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 23:52:43 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 22/27 81.48148148148148%[0m
+2021/06/14 23:52:44 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 23:52:44 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 23:52:44 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 23:52:44 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 23/27 85.18518518518519%[0m
+2021/06/14 23:52:44 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/14 23:52:44 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 24/27 88.88888888888889%[0m
+2021/06/14 23:52:44 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/14 23:52:44 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 25/27 92.5925925925926%[0m
+2021/06/14 23:52:44 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/14 23:52:44 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress REPORT 26/27 96.29629629629629%[0m
+2021/06/14 23:52:44 [92mIDE     LS <-- CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 23:52:44 [91mIDE <-- LS     CL: NOTIFICATION $/progress: TOKEN=backgroundIndexProgress END [0m
+2021/06/14 23:52:45 [92mIDE --> LS     CL: REQUEST shutdown 2: [0m
+2021/06/14 23:52:45 IDE --> shutdown 2 [93m read-locked[0m
+2021/06/14 23:52:45 IDE --> shutdown 2 sent to Clang
+2021/06/14 23:52:45 [91mIDE     LS --> CL: REQUEST shutdown 3: [0m
+2021/06/14 23:52:45 [92mIDE     LS <-- CL: ANSWER shutdown 3 (3): [0m
+2021/06/14 23:52:45 IDE --> shutdown 2 [93m read-unlocked[0m
+2021/06/14 23:52:45 [91mIDE <-- LS     CL: ANSWER UNBOUND (2): [0m
+2021/06/14 23:52:45 [92mIDE --> LS     CL: NOTIFICATION exit: [0m
+2021/06/14 23:52:45 IDE --> exit notif3 [93m read-locked[0m
+2021/06/14 23:52:45 IDE --> exit notif3 sent to Clang
+2021/06/14 23:52:45 [91mIDE     LS --> CL: NOTIFICATION exit: [0m
+2021/06/14 23:52:45 IDE --> exit notif3 [93m read-unlocked[0m
+2021/06/14 23:52:45 Lost connection with clangd!
+2021/06/14 23:52:45 removing buildpath

@@ -1,0 +1,31 @@
+{
+  "name": "Ticker",
+  "version": "2.0.0",
+  "keywords": "arduino, timing, multitasking, non-blocking",
+  "description": "A library for creating Tickers, which will notify user that a given period has elapsed. Replaces delay() and allows users to write non-blocking code.",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JSC-electronics/Ticker"
+  },
+  "authors": [
+    {
+      "name": "Robert Faltus",
+      "email": "robert.faltus@jsce.cz",
+      "url": "https://github.com/Robert-Faltus"
+    },
+    {
+      "name": "Vladimír Záhradník",
+      "email": "vladimir.zahradnik@jsce.cz",
+      "url": "https://github.com/vzahradnik",
+      "maintainer": true
+    },
+    {
+      "name": "JSC electronics",
+      "email": "development@jsce.cz",
+      "url": "https://github.com/jsc-electronics"
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": "*"
+}
